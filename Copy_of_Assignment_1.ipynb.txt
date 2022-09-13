@@ -51,7 +51,7 @@
       ],
       "metadata": {
         "id": "6mGVa3SQYLkb",
-        "outputId": "2bd75409-0fab-47bf-c360-59c900bc933e",
+        "outputId": "1d8b2a76-5a77-4eb6-bb9d-d680536ffa01",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -66,7 +66,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 31
+          "execution_count": 2
         }
       ]
     },
@@ -96,11 +96,11 @@
     {
       "cell_type": "code",
       "source": [
-        "print(\"The diameter of {} is {} kilometres.\". format (planet, diameter))"
+        "print(\"The diameter of {} is {} kilometres.\".format (planet, diameter))"
       ],
       "metadata": {
         "id": "HyRyJv6CYPb4",
-        "outputId": "04ac001e-4cfb-4274-e3f7-cb7efcccc583",
+        "outputId": "9e10341f-a7eb-4e9d-bbf2-c0ab07fab272",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -145,7 +145,7 @@
       ],
       "metadata": {
         "id": "MvbkMZpXYRaw",
-        "outputId": "d95c66b1-24e0-4e4d-9cc6-5c3fa48139cd",
+        "outputId": "d8e89d02-bae6-401b-e9ae-e15b7fb61812",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -201,7 +201,7 @@
       ],
       "metadata": {
         "id": "NHrirmgCYXvU",
-        "outputId": "e3819af5-2625-4091-d268-ff91db8a447f",
+        "outputId": "50329e08-9739-41a2-cfe1-377faa5e936d",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -227,7 +227,7 @@
       ],
       "metadata": {
         "id": "e4005lsTYXxx",
-        "outputId": "ffc69dfa-3a61-4ae9-c62c-ff5ab3035005",
+        "outputId": "3d0084da-48f4-4d07-903f-a18f19ff38b0",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -257,13 +257,13 @@
       "cell_type": "code",
       "source": [
         "import numpy as np\n",
-        "array=np.arange(20,35,2)\n",
+        "array=no.arange(20,35,2)\n",
         "print (\"array of all the even integers from 20 to 35\")\n",
         "print (array)"
       ],
       "metadata": {
         "id": "oAI2tbU2Yag-",
-        "outputId": "59d1626b-1871-4ae0-ca51-e432ea51f222",
+        "outputId": "9d0d3937-6381-4c48-e952-06551a5cf734",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -297,7 +297,7 @@
       ],
       "metadata": {
         "id": "tOlEVH7BYceE",
-        "outputId": "07802552-c650-4c0a-ca59-2f93285859c0",
+        "outputId": "d734bbef-2bc2-41ce-efa8-11be3d147ae1",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -330,12 +330,12 @@
       "source": [
         "a = np.array([1,2,3])\n",
         "b = np.array([4,5,6])\n",
-        "c = np.concatenate((a,b),axis=None)\n",
-        "print (c)"
+        "c = np.concatenate((a,b), axis=None)\n",
+        "print(c)"
       ],
       "metadata": {
         "id": "rAPSw97aYfE0",
-        "outputId": "34f06457-ffc9-4ac2-e764-5874df199204",
+        "outputId": "69b37038-12b6-4894-d624-53d60ec3ea4d",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -372,7 +372,7 @@
     {
       "cell_type": "code",
       "source": [
-        "import pandas as pd"
+        "import pandas as pd\n"
       ],
       "metadata": {
         "id": "T5OxJRZ8uvR7"
@@ -383,7 +383,6 @@
     {
       "cell_type": "code",
       "source": [
-        "\n",
         "import pandas as pd\n",
         "data =[['tom',10],['nick',15],['juli',14]]\n",
         "df=pd.DataFrame(data, columns=['name','age'])\n",
@@ -391,7 +390,7 @@
       ],
       "metadata": {
         "id": "xNpI_XXoYhs0",
-        "outputId": "c2e75b1a-be2a-4b18-bbfa-4cbfe7a13aa2",
+        "outputId": "f8a54bbe-96a3-4a2b-bfad-e9d8d4213442",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 143
@@ -410,7 +409,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-c909c784-9631-4f8f-89a3-e8c1bff24720\">\n",
+              "  <div id=\"df-62a327b9-fbc5-4917-b40c-68c070728677\">\n",
               "    <div class=\"colab-df-container\">\n",
               "      <div>\n",
               "<style scoped>\n",
@@ -453,7 +452,7 @@
               "  </tbody>\n",
               "</table>\n",
               "</div>\n",
-              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-c909c784-9631-4f8f-89a3-e8c1bff24720')\"\n",
+              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-62a327b9-fbc5-4917-b40c-68c070728677')\"\n",
               "              title=\"Convert this dataframe to an interactive table.\"\n",
               "              style=\"display:none;\">\n",
               "        \n",
@@ -504,12 +503,12 @@
               "\n",
               "      <script>\n",
               "        const buttonEl =\n",
-              "          document.querySelector('#df-c909c784-9631-4f8f-89a3-e8c1bff24720 button.colab-df-convert');\n",
+              "          document.querySelector('#df-62a327b9-fbc5-4917-b40c-68c070728677 button.colab-df-convert');\n",
               "        buttonEl.style.display =\n",
               "          google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "        async function convertToInteractive(key) {\n",
-              "          const element = document.querySelector('#df-c909c784-9631-4f8f-89a3-e8c1bff24720');\n",
+              "          const element = document.querySelector('#df-62a327b9-fbc5-4917-b40c-68c070728677');\n",
               "          const dataTable =\n",
               "            await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                     [key], {});\n",
@@ -532,7 +531,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 41
+          "execution_count": 34
         }
       ]
     },
@@ -548,13 +547,14 @@
     {
       "cell_type": "code",
       "source": [
+        "\n",
         "per1 = pd.date_range (start ='1-1-2023', end = '2-10-2023')\n",
         "for val in per1:\n",
-        "     print(val)"
+        "    print(val)"
       ],
       "metadata": {
         "id": "dgyC0JhVYl4F",
-        "outputId": "b942e202-ac5e-47d5-c68e-573d1ab5a158",
+        "outputId": "41a44ff4-a5e6-4427-c3d2-68ee3a134d3b",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -637,6 +637,7 @@
     {
       "cell_type": "code",
       "source": [
+        "\n",
         "import pandas as pd \n",
         "lists=[[1,'aaa',22],[2,'bbb',25],[3,'ccc',24]]\n",
         "df=pd.DataFrame(lists, columns =['sno','name','rno'])\n",
@@ -644,7 +645,7 @@
       ],
       "metadata": {
         "id": "knH76sDKYsVX",
-        "outputId": "2ce41de1-b46c-4347-c695-d3d9622d510d",
+        "outputId": "987a5fbc-7269-4a30-d48b-95909e24092d",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
