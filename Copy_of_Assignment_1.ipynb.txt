@@ -51,10 +51,10 @@
       ],
       "metadata": {
         "id": "6mGVa3SQYLkb",
-        "outputId": "bccb29f8-3ff3-47dc-c3c4-4d5382e017e9",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "outputId": "262e1535-c519-4845-808f-64d643c47e63"
       },
       "execution_count": null,
       "outputs": [
@@ -66,7 +66,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 3
+          "execution_count": 5
         }
       ]
     },
@@ -96,14 +96,14 @@
     {
       "cell_type": "code",
       "source": [
-        "print(\"The diameter of {} is {}  kilometres.\".format (planet,diameter))"
+        "print(\"the diameter of {} is {} Kilometers.\". format (planet, diameter))"
       ],
       "metadata": {
         "id": "HyRyJv6CYPb4",
-        "outputId": "c82df618-da2b-43f1-8870-41b1772e85c9",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "outputId": "8137abcf-a1df-4685-a2cf-7671f5613975"
       },
       "execution_count": null,
       "outputs": [
@@ -111,7 +111,7 @@
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "The diameter of Earth is 12742  kilometres.\n"
+            "the diameter of Earth is 12742 Kilometers.\n"
           ]
         }
       ]
@@ -139,16 +139,16 @@
     {
       "cell_type": "code",
       "source": [
-        "d2=d['k1'][3]\n",
+        "d2=d['k1'] [3]\n",
         "d3=d2['tricky'][3]\n",
-        "print (d3['target'][3])"
+        "print(d3['target'] [3])"
       ],
       "metadata": {
         "id": "MvbkMZpXYRaw",
-        "outputId": "e286cf46-8b72-42d2-8572-cc5036f7b4ba",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "outputId": "d4d5b683-fac2-4f13-c57e-324d8ea3570d"
       },
       "execution_count": null,
       "outputs": [
@@ -196,15 +196,15 @@
       "source": [
         "import numpy as np\n",
         "array=np.zeros(10)\n",
-        "print(\"array of 10 zeros:\")\n",
+        "print (\"array of 10 zeros:\") \n",
         "print(array)"
       ],
       "metadata": {
         "id": "NHrirmgCYXvU",
-        "outputId": "94e4a333-739d-428f-a091-c92a3927d1d3",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "outputId": "0fe45c00-4861-49bb-c2b6-b2d972b3422b"
       },
       "execution_count": null,
       "outputs": [
@@ -222,15 +222,15 @@
       "cell_type": "code",
       "source": [
         "array=np.ones(10)*5\n",
-        "print(\"array of 10 fives:\")\n",
+        "print(\"array of 10 fives\") \n",
         "print(array)"
       ],
       "metadata": {
         "id": "e4005lsTYXxx",
-        "outputId": "50ce8ae6-0afd-4807-8e7f-f1e9d3b10586",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "outputId": "1bfefaf1-e98c-41db-f6eb-1700e14059d0"
       },
       "execution_count": null,
       "outputs": [
@@ -238,7 +238,7 @@
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "array of 10 fives:\n",
+            "array of 10 fives\n",
             "[5. 5. 5. 5. 5. 5. 5. 5. 5. 5.]\n"
           ]
         }
@@ -258,15 +258,15 @@
       "source": [
         "import numpy as np\n",
         "array=np.arange(20,35,2)\n",
-        "print(\"array of all the even integers from 20 to 35\")\n",
-        "print(array)"
+        "print(\"array of all the even integer from 20 to 25\")\n",
+        "print (array)"
       ],
       "metadata": {
         "id": "oAI2tbU2Yag-",
-        "outputId": "7f998f7c-8705-4d7e-aec1-52eb038f5b00",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "outputId": "1b30b72d-6350-4f4a-ef8c-782f467d75eb"
       },
       "execution_count": null,
       "outputs": [
@@ -274,7 +274,7 @@
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "array of all the even integers from 20 to 35\n",
+            "array of all the even integer from 20 to 25\n",
             "[20 22 24 26 28 30 32 34]\n"
           ]
         }
@@ -292,15 +292,15 @@
     {
       "cell_type": "code",
       "source": [
-        "x= np.arange(0,9).reshape(3,3)\n",
-        "print(x)"
+        "x=np.arange (0,9).reshape(3,3)\n",
+        "print (x)"
       ],
       "metadata": {
         "id": "tOlEVH7BYceE",
-        "outputId": "93c65f4f-0710-40c5-eeba-585a5812817d",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "outputId": "8feb9d7f-a329-40ec-87b3-5bd7df0fb5bf"
       },
       "execution_count": null,
       "outputs": [
@@ -335,10 +335,10 @@
       ],
       "metadata": {
         "id": "rAPSw97aYfE0",
-        "outputId": "d5f52f9e-4fc4-4d56-e361-a17d2507e56a",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "outputId": "91fc2784-7cfb-4f32-e920-c0dd70e26ede"
       },
       "execution_count": null,
       "outputs": [
@@ -391,11 +391,11 @@
       ],
       "metadata": {
         "id": "xNpI_XXoYhs0",
-        "outputId": "0186ecaa-edc3-4408-eaba-c532ccd5c56f",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 143
-        }
+        },
+        "outputId": "e3ff0395-1c28-4a20-b1e3-64e0a4e32060"
       },
       "execution_count": null,
       "outputs": [
@@ -410,7 +410,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-8aab9179-1b36-41c4-bbd8-ca415e50d89a\">\n",
+              "  <div id=\"df-ce18a7e4-f8ec-4d8a-bf6d-bb0936fd35dc\">\n",
               "    <div class=\"colab-df-container\">\n",
               "      <div>\n",
               "<style scoped>\n",
@@ -453,7 +453,7 @@
               "  </tbody>\n",
               "</table>\n",
               "</div>\n",
-              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-8aab9179-1b36-41c4-bbd8-ca415e50d89a')\"\n",
+              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-ce18a7e4-f8ec-4d8a-bf6d-bb0936fd35dc')\"\n",
               "              title=\"Convert this dataframe to an interactive table.\"\n",
               "              style=\"display:none;\">\n",
               "        \n",
@@ -504,12 +504,12 @@
               "\n",
               "      <script>\n",
               "        const buttonEl =\n",
-              "          document.querySelector('#df-8aab9179-1b36-41c4-bbd8-ca415e50d89a button.colab-df-convert');\n",
+              "          document.querySelector('#df-ce18a7e4-f8ec-4d8a-bf6d-bb0936fd35dc button.colab-df-convert');\n",
               "        buttonEl.style.display =\n",
               "          google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "        async function convertToInteractive(key) {\n",
-              "          const element = document.querySelector('#df-8aab9179-1b36-41c4-bbd8-ca415e50d89a');\n",
+              "          const element = document.querySelector('#df-ce18a7e4-f8ec-4d8a-bf6d-bb0936fd35dc');\n",
               "          const dataTable =\n",
               "            await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                     [key], {});\n",
@@ -532,7 +532,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 21
+          "execution_count": 24
         }
       ]
     },
@@ -548,17 +548,16 @@
     {
       "cell_type": "code",
       "source": [
-        "\n",
         "per1 = pd.date_range (start ='1-1-2023', end = '2-10-2023')\n",
         "for val in per1:\n",
-        "    print(val)"
+        "   print(val)"
       ],
       "metadata": {
         "id": "dgyC0JhVYl4F",
-        "outputId": "d174c4f5-e513-43af-f8db-fcf1a47d0407",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "outputId": "3da76b33-e4f4-40ab-f1c1-b5d1af2eb1da"
       },
       "execution_count": null,
       "outputs": [
@@ -646,10 +645,10 @@
       ],
       "metadata": {
         "id": "knH76sDKYsVX",
-        "outputId": "9d186866-50c2-44d6-f0af-6ea59760404b",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "outputId": "b0e3c629-5973-44d7-cf4e-7681726e23ab"
       },
       "execution_count": null,
       "outputs": [
