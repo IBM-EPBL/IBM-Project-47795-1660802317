@@ -51,7 +51,7 @@
       ],
       "metadata": {
         "id": "6mGVa3SQYLkb",
-        "outputId": "1d8b2a76-5a77-4eb6-bb9d-d680536ffa01",
+        "outputId": "bccb29f8-3ff3-47dc-c3c4-4d5382e017e9",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -66,7 +66,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 2
+          "execution_count": 3
         }
       ]
     },
@@ -96,11 +96,11 @@
     {
       "cell_type": "code",
       "source": [
-        "print(\"The diameter of {} is {} kilometres.\".format (planet, diameter))"
+        "print(\"The diameter of {} is {}  kilometres.\".format (planet,diameter))"
       ],
       "metadata": {
         "id": "HyRyJv6CYPb4",
-        "outputId": "9e10341f-a7eb-4e9d-bbf2-c0ab07fab272",
+        "outputId": "c82df618-da2b-43f1-8870-41b1772e85c9",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -111,7 +111,7 @@
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "The diameter of Earth is 12742 kilometres.\n"
+            "The diameter of Earth is 12742  kilometres.\n"
           ]
         }
       ]
@@ -145,7 +145,7 @@
       ],
       "metadata": {
         "id": "MvbkMZpXYRaw",
-        "outputId": "d8e89d02-bae6-401b-e9ae-e15b7fb61812",
+        "outputId": "e286cf46-8b72-42d2-8572-cc5036f7b4ba",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -197,11 +197,11 @@
         "import numpy as np\n",
         "array=np.zeros(10)\n",
         "print(\"array of 10 zeros:\")\n",
-        "print (array)"
+        "print(array)"
       ],
       "metadata": {
         "id": "NHrirmgCYXvU",
-        "outputId": "50329e08-9739-41a2-cfe1-377faa5e936d",
+        "outputId": "94e4a333-739d-428f-a091-c92a3927d1d3",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -222,12 +222,12 @@
       "cell_type": "code",
       "source": [
         "array=np.ones(10)*5\n",
-        "print (\"array of 10 fives:\")\n",
-        "print (array)"
+        "print(\"array of 10 fives:\")\n",
+        "print(array)"
       ],
       "metadata": {
         "id": "e4005lsTYXxx",
-        "outputId": "3d0084da-48f4-4d07-903f-a18f19ff38b0",
+        "outputId": "50ce8ae6-0afd-4807-8e7f-f1e9d3b10586",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -257,13 +257,13 @@
       "cell_type": "code",
       "source": [
         "import numpy as np\n",
-        "array=no.arange(20,35,2)\n",
-        "print (\"array of all the even integers from 20 to 35\")\n",
-        "print (array)"
+        "array=np.arange(20,35,2)\n",
+        "print(\"array of all the even integers from 20 to 35\")\n",
+        "print(array)"
       ],
       "metadata": {
         "id": "oAI2tbU2Yag-",
-        "outputId": "9d0d3937-6381-4c48-e952-06551a5cf734",
+        "outputId": "7f998f7c-8705-4d7e-aec1-52eb038f5b00",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -292,12 +292,12 @@
     {
       "cell_type": "code",
       "source": [
-        "x = np.arange(0,9). reshape (3,3)\n",
-        "print (x)"
+        "x= np.arange(0,9).reshape(3,3)\n",
+        "print(x)"
       ],
       "metadata": {
         "id": "tOlEVH7BYceE",
-        "outputId": "d734bbef-2bc2-41ce-efa8-11be3d147ae1",
+        "outputId": "93c65f4f-0710-40c5-eeba-585a5812817d",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -328,14 +328,14 @@
     {
       "cell_type": "code",
       "source": [
-        "a = np.array([1,2,3])\n",
-        "b = np.array([4,5,6])\n",
-        "c = np.concatenate((a,b), axis=None)\n",
+        "a=np.array([1,2,3])\n",
+        "b=np.array([4,5,6])\n",
+        "c=np.concatenate((a,b),axis=None)\n",
         "print(c)"
       ],
       "metadata": {
         "id": "rAPSw97aYfE0",
-        "outputId": "69b37038-12b6-4894-d624-53d60ec3ea4d",
+        "outputId": "d5f52f9e-4fc4-4d56-e361-a17d2507e56a",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -372,7 +372,7 @@
     {
       "cell_type": "code",
       "source": [
-        "import pandas as pd\n"
+        "import pandas as pd"
       ],
       "metadata": {
         "id": "T5OxJRZ8uvR7"
@@ -383,6 +383,7 @@
     {
       "cell_type": "code",
       "source": [
+        "\n",
         "import pandas as pd\n",
         "data =[['tom',10],['nick',15],['juli',14]]\n",
         "df=pd.DataFrame(data, columns=['name','age'])\n",
@@ -390,7 +391,7 @@
       ],
       "metadata": {
         "id": "xNpI_XXoYhs0",
-        "outputId": "f8a54bbe-96a3-4a2b-bfad-e9d8d4213442",
+        "outputId": "0186ecaa-edc3-4408-eaba-c532ccd5c56f",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 143
@@ -409,7 +410,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-62a327b9-fbc5-4917-b40c-68c070728677\">\n",
+              "  <div id=\"df-8aab9179-1b36-41c4-bbd8-ca415e50d89a\">\n",
               "    <div class=\"colab-df-container\">\n",
               "      <div>\n",
               "<style scoped>\n",
@@ -452,7 +453,7 @@
               "  </tbody>\n",
               "</table>\n",
               "</div>\n",
-              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-62a327b9-fbc5-4917-b40c-68c070728677')\"\n",
+              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-8aab9179-1b36-41c4-bbd8-ca415e50d89a')\"\n",
               "              title=\"Convert this dataframe to an interactive table.\"\n",
               "              style=\"display:none;\">\n",
               "        \n",
@@ -503,12 +504,12 @@
               "\n",
               "      <script>\n",
               "        const buttonEl =\n",
-              "          document.querySelector('#df-62a327b9-fbc5-4917-b40c-68c070728677 button.colab-df-convert');\n",
+              "          document.querySelector('#df-8aab9179-1b36-41c4-bbd8-ca415e50d89a button.colab-df-convert');\n",
               "        buttonEl.style.display =\n",
               "          google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "        async function convertToInteractive(key) {\n",
-              "          const element = document.querySelector('#df-62a327b9-fbc5-4917-b40c-68c070728677');\n",
+              "          const element = document.querySelector('#df-8aab9179-1b36-41c4-bbd8-ca415e50d89a');\n",
               "          const dataTable =\n",
               "            await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                     [key], {});\n",
@@ -531,7 +532,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 34
+          "execution_count": 21
         }
       ]
     },
@@ -554,7 +555,7 @@
       ],
       "metadata": {
         "id": "dgyC0JhVYl4F",
-        "outputId": "41a44ff4-a5e6-4427-c3d2-68ee3a134d3b",
+        "outputId": "d174c4f5-e513-43af-f8db-fcf1a47d0407",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -645,7 +646,7 @@
       ],
       "metadata": {
         "id": "knH76sDKYsVX",
-        "outputId": "987a5fbc-7269-4a30-d48b-95909e24092d",
+        "outputId": "9d186866-50c2-44d6-f0af-6ea59760404b",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
